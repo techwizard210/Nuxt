@@ -1,9 +1,16 @@
 <template>
-  <main class="mb-auto h-10 bg-green-500">Content</main>
+  <main class="mt-10">
+    <Tab />
+  </main>
 </template>
 
 <script>
-export default {};
+import Tab from './Tab.vue'
+export default {
+  components: {
+    Tab,
+  }
+};
 </script>
 
 <style>
