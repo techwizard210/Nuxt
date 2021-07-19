@@ -2,8 +2,6 @@
   <footer
     class="
       h-footer
-      bottom-0
-      sticky
       rounded-b-none rounded-t-br
       shadow-4xl
       flex flex-row

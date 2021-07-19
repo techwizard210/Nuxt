@@ -1,5 +1,5 @@
 <template>
-  <div class="main_container flex flex-col h-screen justify-between">
+  <div class="main_container flex flex-col h-screen min-h-screen">
     <Header />
     <Main />
     <Footer />

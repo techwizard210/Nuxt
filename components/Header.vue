@@ -1,5 +1,5 @@
 <template>
-  <header class="sticky top-0">
+  <header>
     <div class="h-gh bg-gradient-to-r from-primary to-secondary" />
     <div class="h-nav rounded-t-none rounded-b-br shadow-3xl">
       <span

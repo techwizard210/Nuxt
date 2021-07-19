@@ -1,15 +1,15 @@
 <template>
-  <main class="mt-10">
+  <main class="flex-1 overflow-y-auto mt-10">
     <Tab />
   </main>
 </template>
 
 <script>
-import Tab from './Tab.vue'
+import Tab from "./Tab.vue";
 export default {
   components: {
     Tab,
-  }
+  },
 };
 </script>
 
