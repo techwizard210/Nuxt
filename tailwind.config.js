@@ -4,13 +4,19 @@ module.exports = {
     theme: {
         extend: {
             width: {
+                'origin': '360px',
                 'login_text': '39px',
+                'landing_img': '418px',
+                'landing_back': '557px',
             },
             height: {
                 'gh': '5px',
                 'nav': '67px',
                 'login_text': '19px',
-                'footer': '88px'
+                'footer': '88px',
+                'landing_text': '100px',
+                'landing_img': '405px',
+                'landing_back': '659px',
             },
             gradientColorStops: theme => ({
                 ...theme('colors'),
@@ -25,12 +31,14 @@ module.exports = {
                 '4xl': '0px -1px 3px #00000033',
             },
             colors: {
-                'user': '#319795'
+                'user': '#319795',
+                'landing': '#2D3748',
             },
             margin: {
                 'login_t': '26px',
                 'login_l': '304px',
                 'footer_t': '556px',
+                'landing_t': '18px'
             },
             fontFamily: {
                 'sans': ['Lato', 'Sans-serif']
@@ -47,7 +55,10 @@ module.exports = {
             },
             animation: {
                 'fade-in-down': 'fade-in-down 0.3s ease-out'
-            }
+            },
+            letterSpacing: {
+                landing: '1.26px'
+            },
         },
     },
     variants: {

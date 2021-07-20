@@ -7,6 +7,8 @@
       flex flex-row
       items-center
       px-5
+      z-20
+      bg-white      
     "
   >
     <Button

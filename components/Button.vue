@@ -6,6 +6,7 @@
       width ? width : '',
       height ? height : '',
       radius ? radius : '',
+      z-20
     ]"
   >
     {{ text }}
@@ -16,12 +17,12 @@
 export default {
   name: "Button",
   props: {
-    bgcolor: "String",
-    color: "String",
-    width: "String",
-    height: "String",
-    radius: "String",
-    text: "String",
+    bgcolor: String,
+    color: String,
+    width: String,
+    height: String,
+    radius: String,
+    text: String,
   },
 };
 </script>
