@@ -1,5 +1,5 @@
 <template>
-  <header class="w-origin flex-col z-20">
+  <header class="absolute top-0 left-0 w-full z-20">
     <div class="h-gh bg-gradient-to-r from-primary to-secondary" />
     <div class="h-nav rounded-t-none rounded-b-br shadow-3xl bg-white">
       <span
@@ -11,8 +11,7 @@
           font-sans
           absolute
           mt-login_t
-          ml-login_l 
-          cursor-pointer                   
+          ml-login_l
         "
         >Login</span
       >

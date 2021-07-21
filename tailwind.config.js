@@ -8,7 +8,8 @@ module.exports = {
                 'login_text': '39px',
                 'landing_img': '418px',
                 'landing_back': '557px',
-                'tab': '159.5px',
+                'landing-tab': '956px',
+                'tab': '160px',
                 'content_h': '280px',
             },
             height: {
@@ -18,13 +19,19 @@ module.exports = {
                 'footer': '88px',
                 'landing_text': '100px',
                 'landing_img': '405px',
-                'landing_back': '659px',
+                'landing_back': '700px',
             },
             gradientColorStops: theme => ({
                 ...theme('colors'),
                 'primary': '#319795',
                 'secondary': '#3182ce',
+                'landingbg-from': '#EBF4FF',
+                'landingbg-to': '#E6FFFA'
             }),
+            borderWidth: {
+                '5': '5px',
+                '1': '1px'
+            },
             borderRadius: {
                 'br': '12px'
             },
@@ -39,6 +46,7 @@ module.exports = {
                 'content_h': '#4A5568',
                 'item_num': '#718096',
                 'circle': '#F7FAFC',
+                'tablink_border': '#CBD5E0'
             },
             margin: {
                 'login_t': '26px',
@@ -46,6 +54,9 @@ module.exports = {
                 'footer_t': '556px',
                 'landing_t': '18px',
                 '100x': '100px',
+            },
+            padding: {
+                'landing_t': '85px'
             },
             fontFamily: {
                 'sans': ['Lato', 'Sans-serif']

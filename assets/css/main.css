@@ -4,13 +4,8 @@
 
 .main_container {
     max-width: 360px;
+    height: 100vh;
     margin: 0 auto;
+    overflow-y: hidden;
     position: relative;
-}
-
-.gradient_box {
-    width: 557px;
-    height: 659px;
-    background: transparent linear-gradient(141deg, #EBF4FF 0%, #E6FFFA 100%) 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
