@@ -64,6 +64,7 @@ module.exports = {
             },
             fontSize: {
                 '2xl': '1.7rem',
+                'pageTitle': '42px'
             },
             keyframes: {
                 'fade-in-down': {

@@ -6,10 +6,9 @@
           w-80
           mx-auto
           text-center
-          font-sans
+          font-sans font-medium
           tracking-landing
-          font-medium
-          text-5xl text-landing
+          text-pageTitle text-landing
           pt-landing_t
         "
       >
