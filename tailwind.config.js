@@ -46,7 +46,8 @@ module.exports = {
                 'content_h': '#4A5568',
                 'item_num': '#718096',
                 'circle': '#F7FAFC',
-                'tablink_border': '#CBD5E0'
+                'tablink_border': '#CBD5E0',
+                'item3-circle': '#F7FAFC'
             },
             margin: {
                 'login_t': '26px',
@@ -82,6 +83,11 @@ module.exports = {
             letterSpacing: {
                 landing: '1.26px'
             },
+            inset: {
+                '3.375': '3.375rem',
+                '11.313': '11.313rem',
+                '4.5': '4.5rem'
+            }
         },
     },
     variants: {

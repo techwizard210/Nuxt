@@ -12,7 +12,7 @@
       px-5
       bg-white
       w-full
-      z-20
+      z-50
     "
   >
     <Button
