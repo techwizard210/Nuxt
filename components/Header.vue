@@ -1,7 +1,7 @@
 <template>
-  <header>
+  <header class="w-origin flex-col z-20">
     <div class="h-gh bg-gradient-to-r from-primary to-secondary" />
-    <div class="h-nav rounded-t-none rounded-b-br shadow-3xl">
+    <div class="h-nav rounded-t-none rounded-b-br shadow-3xl bg-white">
       <span
         class="
           w-login_text
@@ -11,9 +11,8 @@
           font-sans
           absolute
           mt-login_t
-          ml-login_l
-          bg-white
-          z-20
+          ml-login_l 
+          cursor-pointer                   
         "
         >Login</span
       >

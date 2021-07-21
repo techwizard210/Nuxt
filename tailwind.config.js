@@ -8,6 +8,7 @@ module.exports = {
                 'login_text': '39px',
                 'landing_img': '418px',
                 'landing_back': '557px',
+                'tab': '159.5px'
             },
             height: {
                 'gh': '5px',
@@ -33,6 +34,7 @@ module.exports = {
             colors: {
                 'user': '#319795',
                 'landing': '#2D3748',
+                'tab': '#81E6D9',
             },
             margin: {
                 'login_t': '26px',

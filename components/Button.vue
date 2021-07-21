@@ -6,7 +6,6 @@
       width ? width : '',
       height ? height : '',
       radius ? radius : '',
-      z-20
     ]"
   >
     {{ text }}
