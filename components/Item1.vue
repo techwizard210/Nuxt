@@ -1,5 +1,5 @@
 <template>
-  <section class="relative mt-5 w-80 h-60">
+  <section class="relative mt-5 w-item1 h-60">
         <div class="absolute top-0 left-24 z-10">
             <img :src="require( `~/assets/${img_name}.svg`)" alt="Item1" />
         </div>

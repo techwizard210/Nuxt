@@ -11,6 +11,7 @@ module.exports = {
                 'landing-tab': '956px',
                 'tab': '160px',
                 'content_h': '280px',
+                'item1': '314px'
             },
             height: {
                 'gh': '5px',
