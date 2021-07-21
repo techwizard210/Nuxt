@@ -12,11 +12,11 @@
                     {{ text }}
                 </div>
                 <div class="absolute top-40 left-28 z-10">
-                    <img src="~/assets/undraw_task_31wc.svg" />
+                    <img src="~/assets/undraw_task_31wc.svg" alt="Item2" />
                 </div>
             </div>
         </div>
-        <svg viewBox="0 0 100 10" class="w-origin h-15 absolute bottom-0">
+        <svg viewBox="0 0 100 10" class="w-origin h-15 absolute bottom-0 z-20">
             <path fill="white" d="M0,10 L0,8 C15,6 30,5 45,6 S80,7 100,0 L100,10" />
         </svg>        
   </section>
@@ -27,7 +27,7 @@ export default {
     name: "Button",
     props: {
     text: String,
-    img: String,    
+    img_url: String,    
   },
 }
 </script>

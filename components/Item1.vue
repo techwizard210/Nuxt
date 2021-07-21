@@ -19,7 +19,7 @@
             rounded-full
             bg-circle
             z-10
-            opacity-100
+            opacity-50
         "
         />
   </section>

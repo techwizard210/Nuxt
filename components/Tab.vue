@@ -107,7 +107,7 @@
             ]"
           >
             <Item1 />
-            <Item2 text="Erstellen dein Lebenslauf" />
+            <Item2 text="Erstellen dein Lebenslauf"/>
             <Item3 />
           </div>
           <div
@@ -116,15 +116,7 @@
               'flex flex-col',
             ]"
           >
-            <p>
-              Completely synergize resource taxing relationships via premier
-              niche markets. Professionally cultivate one-to-one customer
-              service with robust ideas.
-              <br />
-              <br />
-              Dynamically innovate resource-leveling customer service for state
-              of the art customer service.
-            </p>
+            <Item1 />
           </div>
           <div
             v-bind:class="[
@@ -132,14 +124,7 @@
               'flex flex-col',
             ]"
           >
-            <p>
-              Efficiently unleash cross-media information without cross-media
-              value. Quickly maximize timely deliverables for real-time schemas.
-              <br />
-              <br />
-              Dramatically maintain clicks-and-mortar solutions without
-              functional solutions.
-            </p>
+            <Item1 />
           </div>
         </div>
       </div>
