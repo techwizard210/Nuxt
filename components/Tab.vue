@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-wrap">
+  <div class="flex flex-wrap overflow-hidden">
     <div class="w-full relative">
       <ul
         :class="[
