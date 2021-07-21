@@ -26,7 +26,9 @@ module.exports = {
                 'primary': '#319795',
                 'secondary': '#3182ce',
                 'landingbg-from': '#EBF4FF',
-                'landingbg-to': '#E6FFFA'
+                'landingbg-to': '#E6FFFA',
+                'item2-from': '#EBF4FF',
+                'item2-to': '#E6FFFA',
             }),
             borderWidth: {
                 '5': '5px',
@@ -46,7 +48,7 @@ module.exports = {
                 'content_h': '#4A5568',
                 'item_num': '#718096',
                 'circle': '#F7FAFC',
-                'tablink_border': '#CBD5E0'
+                'tablink_border': '#CBD5E0',                
             },
             margin: {
                 'login_t': '26px',

@@ -109,6 +109,7 @@
             ]"
           >
             <Item1 />
+            <Item2 text="Erstellen dein Lebenslauf" />
           </div>
           <div
             v-bind:class="[

@@ -3,9 +3,18 @@
         <svg viewBox="0 0 100 15" class="w-origin h-15 absolute -top-1">
             <path fill="white" d="M0,0 L0,2 C3,2 15,2 25,8 C40,15 50,12 65,8 S90,4 100,6 L100,0" />
         </svg>
-        <div class="py-10 w-origin text-center font-sans tracking-landing font-medium text-5xl text-landing bg-green-400">
-            <p>ookokokok</p>
-            <p>ookokokok</p>
+        <div class="bg-gradient-to-br from-landingbg-from to-landingbg-to py-10 w-origin text-center font-sans tracking-landing font-medium text-5xl text-landing">
+            <div class="relative h-80">
+                <p class="absolute top-0 left-8 font-sans text-9xl text-item_num z-20"> 
+                    2. 
+                </p>
+                <div class="absolute top-24 right-4 font-sans text-base text-item_num tracking-normal z-20">
+                    {{ text }}
+                </div>
+                <div class="absolute top-40 left-28 z-10">
+                    <img src="~/assets/undraw_task_31wc.svg" />
+                </div>
+            </div>
         </div>
         <svg viewBox="0 0 100 10" class="w-origin h-15 absolute bottom-0">
             <path fill="white" d="M0,10 L0,8 C15,6 30,5 45,6 S80,7 100,0 L100,10" />
@@ -15,7 +24,11 @@
 
 <script>
 export default {
-
+    name: "Button",
+    props: {
+    text: String,
+    img: String,    
+  },
 }
 </script>
 
