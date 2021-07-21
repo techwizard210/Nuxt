@@ -1,5 +1,5 @@
 <template>
-  <section class="-mt-20 w-80 h-60">
+  <section class="-mt-20 w-80 h-96">
     <div class="relative">
       <p class="absolute top-12 left-3.375 font-sans text-9xl text-item_num z-40">
         3.
