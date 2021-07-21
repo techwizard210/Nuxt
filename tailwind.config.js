@@ -25,7 +25,8 @@ module.exports = {
                 ...theme('colors'),
                 'primary': '#319795',
                 'secondary': '#3182ce',
-
+                'landingbg-from': '#EBF4FF',
+                'landingbg-to': '#E6FFFA'
             }),
             borderWidth: {
                 '5': '5px',

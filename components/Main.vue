@@ -1,6 +1,6 @@
 <template>
   <main class="h-landing_back overflow-y-auto bg-white">
-    <div class="bg-gray-200">
+    <div class="bg-gradient-to-br from-landingbg-from to-landingbg-to">
       <div
         class="
           w-80
@@ -329,8 +329,8 @@
           </g>
         </svg>
       </div>
-      <svg viewBox="0 0 100 10" class="z-1 w-full h-15">
-        <path fill="white" d="M0,10 L0,8 C15,6 30,5 45,6 S80,7 100,0 L100,10" />
+      <svg viewBox="0 0 100 30" class="z-1 w-full h-30">
+        <path fill="white" d="M0,30 L0,25 C40,30 70,5 100,10 L100,30" />
       </svg>
     </div>
     <Tab />
