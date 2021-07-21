@@ -44,12 +44,16 @@ module.exports = {
                 'landing': '#2D3748',
                 'tab': '#81E6D9',
                 'content_h': '#4A5568',
+                'item_num': '#718096',
+                'circle': '#F7FAFC',
                 'tablink_border': '#CBD5E0'
             },
             margin: {
                 'login_t': '26px',
                 'login_l': '304px',
                 'footer_t': '556px',
+                'landing_t': '18px',
+                '100x': '100px',
             },
             padding: {
                 'landing_t': '85px'

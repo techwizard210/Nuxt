@@ -156,6 +156,8 @@
 </template>
 
 <script>
+import Item1 from './Item1.vue'
+import Item2 from './Item2.vue'
 export default {
   name: "pink-tabs",
   data() {
