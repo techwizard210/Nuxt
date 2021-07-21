@@ -8,7 +8,8 @@ module.exports = {
                 'login_text': '39px',
                 'landing_img': '418px',
                 'landing_back': '557px',
-                'tab': '159.5px'
+                'tab': '159.5px',
+                'content_h': '280px',
             },
             height: {
                 'gh': '5px',
@@ -35,15 +36,22 @@ module.exports = {
                 'user': '#319795',
                 'landing': '#2D3748',
                 'tab': '#81E6D9',
+                'content_h': '#4A5568',
+                'item_num': '#718096',
+                'circle': '#F7FAFC',
             },
             margin: {
                 'login_t': '26px',
                 'login_l': '304px',
                 'footer_t': '556px',
-                'landing_t': '18px'
+                'landing_t': '18px',
+                '100x': '100px',
             },
             fontFamily: {
                 'sans': ['Lato', 'Sans-serif']
+            },
+            fontSize: {
+                '2xl': '1.7rem',
             },
             keyframes: {
                 'fade-in-down': {
