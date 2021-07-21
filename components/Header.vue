@@ -1,7 +1,7 @@
 <template>
-  <header>
+  <header class="absolute top-0 left-0 w-full z-20">
     <div class="h-gh bg-gradient-to-r from-primary to-secondary" />
-    <div class="h-nav rounded-t-none rounded-b-br shadow-3xl">
+    <div class="h-nav rounded-t-none rounded-b-br shadow-3xl bg-white">
       <span
         class="
           w-login_text
@@ -12,8 +12,6 @@
           absolute
           mt-login_t
           ml-login_l
-          bg-white
-          z-20
         "
         >Login</span
       >

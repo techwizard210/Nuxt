@@ -4,5 +4,8 @@
 
 .main_container {
     max-width: 360px;
+    height: 100vh;
     margin: 0 auto;
+    overflow-y: hidden;
+    position: relative;
 }

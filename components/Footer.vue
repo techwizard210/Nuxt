@@ -1,14 +1,18 @@
 <template>
   <footer
     class="
+      absolute
+      bottom-0
+      left-0
       h-footer
       rounded-b-none rounded-t-br
       shadow-4xl
       flex flex-row
       items-center
       px-5
+      bg-white
+      w-full
       z-20
-      bg-white      
     "
   >
     <Button

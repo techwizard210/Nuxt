@@ -8,6 +8,9 @@ module.exports = {
                 'login_text': '39px',
                 'landing_img': '418px',
                 'landing_back': '557px',
+                'landing-tab': '956px',
+                'tab': '160px',
+                'content_h': '280px',
             },
             height: {
                 'gh': '5px',
@@ -16,13 +19,18 @@ module.exports = {
                 'footer': '88px',
                 'landing_text': '100px',
                 'landing_img': '405px',
-                'landing_back': '659px',
+                'landing_back': '700px',
             },
             gradientColorStops: theme => ({
                 ...theme('colors'),
                 'primary': '#319795',
                 'secondary': '#3182ce',
+
             }),
+            borderWidth: {
+                '5': '5px',
+                '1': '1px'
+            },
             borderRadius: {
                 'br': '12px'
             },
@@ -33,15 +41,23 @@ module.exports = {
             colors: {
                 'user': '#319795',
                 'landing': '#2D3748',
+                'tab': '#81E6D9',
+                'content_h': '#4A5568',
+                'tablink_border': '#CBD5E0'
             },
             margin: {
                 'login_t': '26px',
                 'login_l': '304px',
                 'footer_t': '556px',
-                'landing_t': '18px'
+            },
+            padding: {
+                'landing_t': '85px'
             },
             fontFamily: {
                 'sans': ['Lato', 'Sans-serif']
+            },
+            fontSize: {
+                '2xl': '1.7rem',
             },
             keyframes: {
                 'fade-in-down': {
