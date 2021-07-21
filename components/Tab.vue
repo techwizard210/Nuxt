@@ -5,11 +5,8 @@
         :class="[
           'flex',
           'flex-row',
-          'flex-nowrap',
-          'mb-0',
           'list-none',
-          'pt-3',
-          'pb-4',
+          'py-3',
           'transition-all',
           'duration-500',
           'ease-in-out',
@@ -65,7 +62,7 @@
           <a
             class="
               text-xs
-              font-bold              
+              font-bold
               px-5
               py-3
               block
@@ -86,18 +83,19 @@
       </ul>
     </div>
     <div
-      class="
-        relative
-        flex flex-col
-        min-w-0
-        break-words
-        bg-white
-        w-full
-        mt-20
-        pb-60
-      "
+      class="relative flex flex-col min-w-0 break-words bg-white w-full mt-20"
     >
-      <div class="w-content_h mx-auto fonts-sans mt-30x text-center text-content_h text-2xl">
+      <div
+        class="
+          w-content_h
+          mx-auto
+          fonts-sans
+          mt-30x
+          text-center
+          text-content_h
+          text-2xl
+        "
+      >
         Drei einfache Schritte zu deinem neuen Job
       </div>
       <div class="flex-auto">
@@ -110,6 +108,7 @@
           >
             <Item1 />
             <Item2 text="Erstellen dein Lebenslauf" />
+            <Item3 />
           </div>
           <div
             v-bind:class="[
@@ -149,8 +148,8 @@
 </template>
 
 <script>
-import Item1 from './Item1.vue'
-import Item2 from './Item2.vue'
+import Item1 from "./Item1.vue";
+import Item3 from "./Item3.vue";
 export default {
   name: "pink-tabs",
   data() {
@@ -173,7 +172,7 @@ export default {
   },
   components: {
     Item1,
-    Item2,
-  }
+    Item3,
+  },
 };
 </script>

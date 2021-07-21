@@ -1,5 +1,5 @@
 <template>
-  <main class="h-landing_back overflow-y-auto bg-white">
+  <main class="h-landing_back overflow-y-auto bg-white pb-80">
     <div class="bg-gradient-to-br from-landingbg-from to-landingbg-to">
       <div
         class="

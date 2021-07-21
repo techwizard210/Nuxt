@@ -1,5 +1,5 @@
 <template>
-  <header class="absolute top-0 left-0 w-full z-20">
+  <header class="absolute top-0 left-0 w-full z-50">
     <div class="h-gh bg-gradient-to-r from-primary to-secondary" />
     <div class="h-nav rounded-t-none rounded-b-br shadow-3xl bg-white">
       <span

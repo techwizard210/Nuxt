@@ -84,6 +84,11 @@ module.exports = {
             letterSpacing: {
                 landing: '1.26px'
             },
+            inset: {
+                '3.375': '3.375rem',
+                '11.313': '11.313rem',
+                '4.5': '4.5rem'
+            }
         },
     },
     variants: {

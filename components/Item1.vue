@@ -9,16 +9,25 @@
         <p class="absolute top-48 right-0 font-sans text-base text-item_num z-20">
             Erstellen dein Lebenslauf
         </p>
-        <div class="absolute top-14 -left-8 w-52 h-52 rounded-full bg-circle z-10 opacity-30"/>
+        <div
+        class="
+            absolute
+            top-14
+            -left-8
+            w-52
+            h-52
+            rounded-full
+            bg-circle
+            z-10
+            opacity-100
+        "
+        />
   </section>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style>
-
 </style>
