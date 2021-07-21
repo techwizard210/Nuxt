@@ -54,6 +54,7 @@ module.exports = {
                 'footer_t': '556px',
                 'landing_t': '18px',
                 '100x': '100px',
+                '30x': '30px',
             },
             padding: {
                 'landing_t': '85px'

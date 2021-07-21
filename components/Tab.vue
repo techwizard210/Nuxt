@@ -23,7 +23,6 @@
             class="
               text-xs
               font-bold
-              uppercase
               px-5
               py-3
               block
@@ -38,7 +37,7 @@
               'text-white bg-tab border-transparent': openTab === 1,
             }"
           >
-            Profile
+            Arbeitnehmer
           </a>
         </li>
         <li class="-mb-px last:mr-0 flex-auto text-center w-tab">
@@ -46,7 +45,6 @@
             class="
               text-xs
               font-bold
-              uppercase
               px-5
               py-3
               block
@@ -60,15 +58,14 @@
               'text-white bg-tab border-transparent': openTab === 2,
             }"
           >
-            Settings
+            Arbeitgeber
           </a>
         </li>
         <li class="-mb-px last:mr-0 flex-auto text-center w-tab">
           <a
             class="
               text-xs
-              font-bold
-              uppercase
+              font-bold              
               px-5
               py-3
               block
@@ -83,7 +80,7 @@
               'text-white bg-tab border-transparent': openTab === 3,
             }"
           >
-            Options
+            Arbeitgeber
           </a>
         </li>
       </ul>
@@ -100,28 +97,23 @@
         pb-60
       "
     >
-      <div class="px-4 py-5 flex-auto">
+      <div class="w-content_h mx-auto fonts-sans mt-30x text-center text-content_h text-2xl">
+        Drei einfache Schritte zu deinem neuen Job
+      </div>
+      <div class="flex-auto">
         <div class="tab-content tab-space">
           <div
             v-bind:class="[
               { hidden: openTab !== 1, block: openTab === 1 },
-              'h-80',
+              'flex flex-col',
             ]"
           >
-            <p>
-              Collaboratively administrate empowered markets via plug-and-play
-              networks. Dynamically procrastinate B2C users after installed base
-              benefits.
-              <br />
-              <br />
-              Dramatically visualize customer directed convergence without
-              revolutionary ROI.
-            </p>
+            <Item1 />
           </div>
           <div
             v-bind:class="[
               { hidden: openTab !== 2, block: openTab === 2 },
-              'h-80',
+              'flex flex-col',
             ]"
           >
             <p>
@@ -137,7 +129,7 @@
           <div
             v-bind:class="[
               { hidden: openTab !== 3, block: openTab === 3 },
-              'h-80',
+              'flex flex-col',
             ]"
           >
             <p>
@@ -178,5 +170,9 @@ export default {
       }
     },
   },
+  components: {
+    Item1,
+    Item2,
+  }
 };
 </script>
