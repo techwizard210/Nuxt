@@ -106,9 +106,9 @@
               'flex flex-col',
             ]"
           >
-            <Item1 />
-            <Item2 text="Erstellen dein Lebenslauf"/>
-            <Item3 />
+            <Item1 text="Erstellen dein Lebenslauf" img_name="undraw_Profile_data_re_v81r"/>
+            <Item2 text="Erstellen dein Lebenslauf" img_name="undraw_task_31wc"/>
+            <Item3 text="Mit nur einem Klick bewerben" img_name="undraw_personal_file_222m"/>
           </div>
           <div
             v-bind:class="[
@@ -116,7 +116,9 @@
               'flex flex-col',
             ]"
           >
-            <Item1 />
+            <Item1  text="Erstellen dein Lebenslauf" img_name="undraw_Profile_data_re_v81r" />
+            <Item2 text="Erstellen ein Jobinserat" img_name="undraw_about_me_wa29"/>
+            <Item3 text="Mit nur einem Klick bewerben" img_name="undraw_swipe_profiles1_i6mr"/>
           </div>
           <div
             v-bind:class="[
@@ -124,7 +126,9 @@
               'flex flex-col',
             ]"
           >
-            <Item1 />
+            <Item1 text="Erstellen dein Lebenslauf" img_name="undraw_Profile_data_re_v81r" />
+            <Item2 text="Erhalte Vermittlungs- angebot von Arbeitgeber" img_name="undraw_job_offers_kw5d"/>
+            <Item3 text="Vermittlung nach Provision oder Stundenlohn" img_name="undraw_business_deal_cpi9"/>
           </div>
         </div>
       </div>
@@ -134,7 +138,9 @@
 
 <script>
 import Item1 from "./Item1.vue";
+import Item2 from "./Item2.vue";
 import Item3 from "./Item3.vue";
+
 export default {
   name: "pink-tabs",
   data() {
@@ -157,6 +163,7 @@ export default {
   },
   components: {
     Item1,
+    Item2,
     Item3,
   },
 };

@@ -12,7 +12,7 @@
                     {{ text }}
                 </div>
                 <div class="absolute top-40 left-28 z-10">
-                    <img src="~/assets/undraw_task_31wc.svg" alt="Item2" />
+                    <img :src="require( `../assets/${img_name}.svg`)" alt="Item2" />
                 </div>
             </div>
         </div>
@@ -24,10 +24,10 @@
 
 <script>
 export default {
-    name: "Button",
+    name: "Item2",
     props: {
     text: String,
-    img_url: String,    
+    img_name: String,    
   },
 }
 </script>

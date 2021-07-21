@@ -7,10 +7,10 @@
       <p
         class="absolute top-24 left-11.313 font-sans text-base text-item_num z-20"
       >
-        Mit nur einem Klick bewerben
+        {{ text }}
       </p>
       <div class="absolute top-36 left-4.5 z-20">
-        <img src="~/assets/undraw_personal_file_222m.svg" />
+        <img :src="require( `../assets/${img_name}.svg`)" alt="Item3" />
       </div>
       <div
         class="
@@ -30,7 +30,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: 'Item3',
+  props: {
+    text: String,
+    img_name: String,    
+  },
+};
 </script>
 
 <style>
