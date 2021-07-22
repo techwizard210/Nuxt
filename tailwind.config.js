@@ -11,7 +11,8 @@ module.exports = {
                 'landing-tab': '956px',
                 'tab': '160px',
                 'content_h': '280px',
-                'item1': '314px'
+                'item1': '314px',
+                'item6': '344px',
             },
             height: {
                 'gh': '5px',
@@ -66,7 +67,7 @@ module.exports = {
                 'sans': ['Lato', 'Sans-serif']
             },
             fontSize: {
-                '2xl': '1.7rem',
+                '27x': '1.7rem',
                 'pageTitle': '42px'
             },
             keyframes: {
@@ -88,7 +89,12 @@ module.exports = {
             inset: {
                 '3.375': '3.375rem',
                 '11.313': '11.313rem',
-                '4.5': '4.5rem'
+                '4.5': '4.5rem',
+                '58.5': '3.658rem',
+                '22': '5.5rem',
+                '23': '5.67rem',
+                '15': '3.725rem',
+                '18': '4.75rem',
             }
         },
     },
